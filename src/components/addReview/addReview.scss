@@ -1,0 +1,62 @@
+.form_container {
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    .input{
+        p {
+            font-size: 1em;
+            font-weight: 500;
+            color: rgb(3, 3, 3);
+            margin-top: 10px;
+        }
+
+        input[type=text] {
+            padding:5px; 
+            border:2px solid #0e0d0d; 
+            -webkit-border-radius: 5px;
+            border-radius: 10px;
+            margin-top: 1px;
+        }
+   
+        input[type=text]:focus {
+            border-color:#333;
+        }
+
+        input[type=password] {
+            padding:5px; 
+            border:2px solid #0e0d0d; 
+            -webkit-border-radius: 5px;
+            border-radius: 10px;
+            margin-top: 1px;
+        }
+
+        margin-bottom: 10px;
+    }
+    
+    .button{
+        margin-top: 10px;
+    }
+
+    
+}
+
+textarea {
+    background: #f1f1ef; /* Цвет фона */
+    border: 2px solid #0c0c0c; /* Параметры рамки */
+    border-radius: 10px;
+    padding: 10px; /* Поля */
+    width: 500px; /* Ширина */
+    height: 80px; /* Высота */
+    box-sizing: border-box; /* Алгоритм расчёта ширины */
+    font-size: 14px; /* Размер шрифта */
+   }
