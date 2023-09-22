@@ -1,0 +1,14 @@
+.app_header{
+    display:flex;
+    align-items:center;
+    height: 75px;
+    font-family: 'Nunito';
+    background: black;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 600;
+    z-index: 1;
+    span{
+        margin: 0 20px;
+    }
+}
