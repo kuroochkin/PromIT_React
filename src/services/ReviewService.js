@@ -48,7 +48,7 @@ const useReviewService = () => {
         return res;
     }
 
-    return(
+    return{
         error, 
         clearError,
         getToken,
@@ -59,7 +59,7 @@ const useReviewService = () => {
         deleteReview,
         getReviewById,
         getAllReviews
-    );
+    };
 };
 
 export default useReviewService;

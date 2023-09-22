@@ -15,7 +15,7 @@ export const useHttp = () => {
             if(!response.ok) {
                 throw new Error(`Could not fetch ${url}, status: ${response.status}`);
             }
-            
+
             const data = await response.json();
 
             console.log(data);
@@ -23,6 +23,7 @@ export const useHttp = () => {
             return data;
 
         } catch (e) {
+            console.log("ошибка");
             setError(e.message);
             console.log(e);
             throw e;
